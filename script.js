@@ -7,7 +7,7 @@ var S = {
         if (i !== -1) {
             S.UI.simulate(decodeURI(action).substring(i + 3));
         } else {
-            S.UI.simulate('|#countdown 5|NGÀY|20-10|CHÚC|CÁC|CHỊ|LUÔN|DUYÊN|DÁNG|VÀ|XINH|ĐẸP|#rectangle| 20-10 <:3');
+            S.UI.simulate('|#countdown 5|NGÀY|20-10|CHÚC|MẸ|IU|CỦA|CON|LUÔN|DUYÊN|DÁNG|VÀ|XINH|ĐẸP|CON|YÊU|MẸ|NHIỀU|NHẮM|NẠ|#rectangle| 20-10 <:3');
         }
         S.Drawing.loop(function () {
             S.Shape.render();
